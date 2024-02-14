@@ -1,3 +1,13 @@
+# This theme is based on the FMotif icewm theme designed by Alexander Voigt
+# This theme is inspired by the look of the window-manager
+#  of the CDE (Common Desktop Environment) 1990-2000 HP-UX Workstations
+# Author: Stéphane Lassalvy
+# License: LGPL 3
+# 2022-10
+#
+ThemeDescripton = "CDE theme based on Icewm FMotif Theme by Alexander Voigt and the CDE desktop environment"
+ThemeAuthor = "Stéphane Lassalvy"
+
 Look = flat
 Gradients="workspacebuttonbg.xpm workspacebuttonactive.xpm menusel.xpm"
 
@@ -18,7 +28,7 @@ CornerSizeY = 6
 DlgBorderSizeX=6
 DlgBorderSizeY=6
 ShowMenuButtonIcon = 0
-MenuIconSize = 16
+MenuIconSize = 22
 CenterTransientsOnOwner=1
 TaskBarShowTransientWindows=0
 
@@ -99,6 +109,45 @@ InputFontNameXft = "sans:size=12"
 #LabelFontName    = "-bitstream-*-medium-*-*-*-*-140-*-*-*-*-*-*"
 LabelFontNameXft = "sans:size=12"
 
+#Place new mini-icons from bottom to top
+MiniIconsBottomToTop = 1
+
+# Colors
+# Workspace
+ColorNormalWorkspaceButton        = "#63639c"
+ColorNormalWorkspaceButtonText    = "#ffffff"
+ColorActiveWorkspaceButton        = "#63639c"
+ColorActiveWorkspaceButtonText    = "#ffffff"
+
+# Taskbar
+ColorDefaultTaskBar               = "#afb2c3"
+ColorNormalTaskBarApp             = "#afb2c3"
+ColorActiveTaskBarApp             = "#63639c"
+ColorActiveTaskBarAppText         = "#000000"
+ColorMinimizedTaskBarApp          = "#b5b5d6"
+ColorInvisibleTaskBarApp          = "#b5b5d6"
+
+# Buttons
+ColorToolButton                   = "#afb2c3"
+
+ColorNormalButton                 = "#afb2c3"
+ColorNormalButtonText             = "#000000"
+ColorActiveButton                 = "#ecd2d3"
+ColorActiveButtonText             = "#000000"
+
+# Dialog boxes
+ColorDialog                       = "#afb2c3"
+
+# Menu
+ColorNormalMenu                   = "#afb2c3"
+ColorActiveMenuItem               = "#b24d7a"
+ColorNormalMenuItemText           = "#000000"
+ColorActiveMenuItemText           = "#ffffff"
+
+# Titlebar
+ColorNormalTitleBarText = "#000000"
+ColorActiveTitleBarText = "#ffffff"
+
 # Tarkbar justification
 TaskBarJustify="center"
 
@@ -114,4 +163,35 @@ DesktopBackgroundScaled = 0
 DesktopBackgroundTiled = 1
 
 # Choose background
-DesktopBackgroundImage="~/.config/icewm/themes/solarOS2/backgrounds/Solaris.xpm"
+DesktopBackgroundImage="~/.icewm/themes/nIceCDE.Crimson/backgrounds/Solaris.xpm"
+#DesktopBackgroundImage = ""
+#DesktopBackgroundColor = ""
+#DesktopBackgroundColor = "#800080"
+
+# Taskbar height
+TrayIconMaxHeight = 32
+
+# Width of APM Monitor
+TaskBarApmGraphWidth = 60 # [1-1000]
+
+# Height of taskbar monitoring applets
+TaskBarGraphHeight = 32 # [16-1000]
+
+# Clock
+ColorClock     = "#afb2c3"
+ColorClockText = "#000000"
+
+#CPU
+ColorCPUStatusUser   = "#90a793"
+ColorCPUStatusSystem = "#90a793"
+
+# Tooltips
+ColorToolTip     = "#9494a5"
+ColorToolTipText = "#000000"
+
+# Labels
+ColorLabel              = "#afb2c3"
+ColorLabelText          = "#000000"
+
+# Keyboard layout
+ColorKeyboardLayoutText = “#000000”
