@@ -169,13 +169,13 @@ DesktopBackgroundImage="~/.icewm/themes/nIceCDE.Crimson/backgrounds/Solaris.xpm"
 #DesktopBackgroundColor = "#800080"
 
 # Taskbar height
-TrayIconMaxHeight = 32
+TrayIconMaxHeight = 16
 
 # Width of APM Monitor
 TaskBarApmGraphWidth = 60 # [1-1000]
 
 # Height of taskbar monitoring applets
-TaskBarGraphHeight = 32 # [16-1000]
+TaskBarGraphHeight = 16 # [16-1000]
 
 # Clock
 ColorClock     = "#afb2c3"
