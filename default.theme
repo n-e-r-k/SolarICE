@@ -111,8 +111,8 @@ LabelFontNameXft = "sans:size=12"
 # --- Titlebar Settings ---
 
 # Titlebar
-ColorNormalTitleBarText = "#8C86AA"
-ColorActiveTitleBarText = "#221E22"
+ColorNormalTitleBarText = "#322E32"
+ColorActiveTitleBarText = "#FFFFFF"
 
 # Tarkbar justification
 TaskBarJustify="left"
