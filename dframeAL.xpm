@@ -2,9 +2,9 @@
 static char *dframeAL[] = {
 /* columns rows colors chars-per-pixel */
 "6 1 3 1 ",
-"  c #81559B",
-". c #8C86AA",
-"X c #F3F7F0",
+"  c #221E22",
+". c #574C8F",
+"X c #8C86AA",
 /* pixels */
 "XX... "
 };
