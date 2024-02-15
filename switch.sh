@@ -15,3 +15,6 @@ sed -i 's/AFB2C3/8C86AA/g' default.theme
 #sed -i 's/522139/81559B/g' ./icons/*.xpm
 #sed -i 's/B54A7B/8C86AA/g' ./icons/*.xpm
 #sed -i 's/DEADC6/2E0219/g' ./icons/*.xpm
+
+#1. SunLogo.xpm
+#2. Solaris.xpm
