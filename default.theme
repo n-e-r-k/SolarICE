@@ -1,11 +1,12 @@
-# This theme is based on the FMotif icewm theme designed by Alexander Voigt
-# This theme is inspired by the look of the window-manager
-#  of the CDE (Common Desktop Environment) 1990-2000 HP-UX Workstations
-# Author: Stéphane Lassalvy
+# This theme is based on the CDE icewm theme designed by Stéphane Lassalvy (GPL 3)
+# This theme is inspired by the look of the window-manager in Sun's SunOS
+# Author: Jacob France
 # License: GPL 3
 
-ThemeDescripton = "CDE theme based on Icewm FMotif Theme by Alexander Voigt and the CDE desktop environment"
-ThemeAuthor = "Stéphane Lassalvy"
+# TODO: Fix menu colors.
+
+ThemeDescripton = "SolarICE theme based on CDE icewm theme designed by Stéphane Lassalvy and the CDE desktop environment"
+ThemeAuthor = "Jacob France"
 
 Look = flat
 Gradients="workspacebuttonbg.xpm workspacebuttonactive.xpm menusel.xpm"
